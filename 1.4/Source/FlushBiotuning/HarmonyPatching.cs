@@ -75,7 +75,7 @@ namespace FlushBiotuning
         static BiosculpterPodState Postfix(BiosculpterPodState state, CompBiosculpterPod __instance, float ___currentCycleTicksRemaining)
         {
             //if there's no occupant but there is a currentCycleTicksRemaining, infer that we are running a flush cycle and mark the pod as occupied
-            if (__instance.Occupant == null && ___currentCycleTicksRemaining != null && ___currentCycleTicksRemaining != 0)
+            if (__instance.Occupant == null && ___currentCycleTicksRemaining != 0)
             {
                 state = BiosculpterPodState.Occupied;
             }

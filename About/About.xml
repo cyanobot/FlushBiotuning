@@ -5,6 +5,7 @@
     <packageId>cyanobot.FlushBiotuning</packageId>
     <supportedVersions>
         <li>1.4</li>
+		<li>1.5</li>
     </supportedVersions>
 
     <description>Adds an option to the biosculpter pod to clear the biotuning so that it can tune to someone else. If you have the tech to build a new one, why can't you reset it to its default state?
